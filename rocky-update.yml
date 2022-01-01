@@ -1,0 +1,10 @@
+- hosts: managed
+  become: yes
+  user: root
+
+  tasks:
+    - name: upgrade all Rocky Linux packages
+      yum: 
+        name=* 
+        state=latest
+- import_playbook: centos-aide.yml
