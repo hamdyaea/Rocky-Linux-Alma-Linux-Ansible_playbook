@@ -2,7 +2,7 @@ ansible-playbook rocky-update.yml
 
 ansible-playbook rocky-aide.yml   
 
-ansible-playbook rocky+AIDE.yml   
+ansible-playbook update+AIDE.yml   
 
 
 Thie is some Ansible Plabooks for Rocky Linux, Alma Linux, CentOS, Red Hat,  etc...     
